@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-<link rel="stylesheet"  href="css/font-awesome.min.css">
+<link href="css/font-awesome.min.css" rel="stylesheet">
 	
 <style type="text/css">
 
@@ -140,20 +140,20 @@
 <body>
 <div id="navigation">
 	<ul id="navigation">
-		<li><i class="fa fa-home"></i><a href="/">Home</a></li>
-	    	<li><i class="fa fa-address-card-o" style="color: #336B87;"></i><a href="/about">About</a></li>
-		<li><i class="fa fa-area-chart" style="color: #336B87;"></i><a href="/research/research.html">Research</a></li>
-		<li><i class="fa fa-newspaper-o" style="color: #336B87;"></i><a href="/blog">Blog</a></li>
+		<li><i class="fa fa-home" aria-hidden="true"  style="color: #336B87;"></i><a href="/">Home</a></li>
+	    	<li><i class="fa fa-address-card-o" aria-hidden="true"  style="color: #336B87;"></i><a href="/about">About</a></li>
+		<li><i class="fa fa-area-chart" aria-hidden="true"  style="color: #336B87;"></i><a href="/research/research.html">Research</a></li>
+		<li><i class="fa fa-newspaper-o" aria-hidden="true"  style="color: #336B87;"></i><a href="/blog">Blog</a></li>
     </ul><!-- id="navigation" -->
-</div>
-		<div class="container">
-    		{{ content }}
-		<footer>
-    		<ul>
-        		<li><a href="mailto:nicolas.scholtes@unamur.be">email</a></li>
-        		<li><a href="https://github.com/nscholtes">github.com/nscholtes</a></li>
-			</ul>
-		</footer>
+</div><!-- id="navigation" -->
+<div class="container">
+{{ content }}
+<footer>
+	<ul>
+		<li><a href="mailto:nicolas.scholtes@unamur.be">email</a></li>
+        	<li><a href="https://github.com/nscholtes">github.com/nscholtes</a></li>
+	</ul>
+</footer>
 </div><!-- /.container -->
 </body>
 </html>
