@@ -81,7 +81,7 @@
   }
 
   #container {
-    width: 840px;
+    width: 800px;
     text-align: left;
     margin: 0 auto;
     background-color:#fff;
@@ -129,7 +129,7 @@
   }
 
 figure {
-  float: left;
+  float: center;
   width: 30%;
   text-align: center;
   font-style: italic;
