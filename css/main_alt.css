@@ -21,7 +21,7 @@
   h2 {
     font-size: 1.5em;
     font-weight: normal;
-    color: #1199cc;
+    color: #2A3132;
   }
   h3 {
     font-size: 1.9em;
@@ -57,14 +57,14 @@
 
   ul#navigation {
     margin: 0; padding:0;
-    text-align: left;
+    text-align: center;
     background-color: #fff;
-    border-bottom: 1px solid #1199cc;
+    border-bottom: 1px solid #763626;
   }
   ul#navigation li {
     list-style: none;
     display: inline;
-    margin: 0; padding:20px;
+    margin: 0; padding:30px;
     line-height: 2.5em;
     font-size: 1.5em;
   }
@@ -85,8 +85,8 @@
     text-align: left;
     margin: 0 auto;
     background-color:#fff;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 30px;
+    margin-top: 30px;
   }
   #header {
     margin-bottom: 0px;
