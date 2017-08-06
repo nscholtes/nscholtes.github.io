@@ -159,5 +159,5 @@ img.scaled {
 .boxed {
   border: 2px solid green ;
   border-radius: 20px ; 
-  padding: 0.5em;
+  padding: 0 0 0 0;
 } 
